@@ -1,0 +1,609 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+section{
+    margin: 0 auto;
+}
+h1{
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 49px;
+    color: #FFF;
+}
+h2{
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 49px;
+}
+h3{
+    font-weight: 600;
+    font-size: 37px;
+    line-height: 45px;
+}
+h4{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+}
+a{
+    font-size: 12px;
+}
+p{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+}
+li{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+}
+.slider, .slide{
+    overflow: auto;
+    max-width: 1920px;
+    width: 100%;
+}
+/* Скрываем scrollbar для Chrome, Safari и Opera */
+::-webkit-scrollbar {
+    display: none;
+}
+/* Скрываем scrollbar для IE, Edge и Firefox */
+*{
+    -ms-overflow-style: none;  /* IE и Edge */
+    scrollbar-width: none;  /* Firefox */
+}
+/* HEADER */
+.header{
+    background: url(img/child.png);
+    background-repeat: no-repeat;
+    max-width: 1920px;
+    width: 100%;
+    padding: 100px 0 660px;
+}
+.container{
+    max-width: 1400px;
+    width: 100%;
+    margin: 0 auto;
+}
+.container2{
+    max-width: 1270px;
+    width: 100%;
+    margin: 0 auto;
+}
+.heading-content{
+    padding-bottom: 80px;
+}
+.order{
+    text-align: center;
+    display: block;
+    background: #FFF;
+    max-width: 238px;
+    width: 100%;
+    border: 1px solid #8A00BB;
+    border-radius: 26px;
+    color: #000;
+    text-decoration: none;
+
+}
+.top .order-Wildberies{   
+    margin: 20px 0;
+}
+.order-Wildberies{   
+    padding: 22px 45px;
+}
+.order-Wildberies:hover{
+    background: linear-gradient(180deg, rgba(194, 58, 242, 0.9) 0%,  rgba(36, 0, 49, 0.9) 100%);
+}
+.order-OZON{
+    padding: 22px 60px;
+}
+.order-OZON:hover{
+    background: linear-gradient(180deg, #2400FF 0%, rgba(92, 0, 190, 0.915781) 52.6%, rgba(255, 0, 0, 0.67) 100%);
+    border: 1px solid #2400FF;
+}
+/* CARDS */
+.cards{
+    max-width: 1920px;
+    width: 100%;
+    background: #ECECEC;
+    background-image: url("img/fon.png");
+    background-repeat: no-repeat;
+    padding: 100px 0 50px 0;
+}
+.cards-row{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 50px;
+}
+.card-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+.card{
+    border: 1px solid #FFFFFF;
+}
+/* SIZE-CHART */
+.size-chart{
+    max-width: 1920px;
+    width: 100%;
+    background: #E0E0E0; 
+    padding: 100px 0 80px;
+}
+.size-chart-content{
+    display: flex;
+}
+.size-chart-content-left h2{
+    text-align: center;
+    padding-bottom: 20px;
+}
+.size-chart-content-right{
+    max-width: 570px;
+    width: 100%;
+    padding: 69px 0 0 46px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 42px;
+    background: url(img/fon2.png);
+    background-repeat: no-repeat;
+    background-position: top -30px left -70px;
+}
+.size-chart-content-right .social-icon .icon{
+    width: 113px;
+}
+ol{
+    margin: 0;
+}
+table {
+    border-spacing: 0;
+}
+th{
+    width: 245px;
+    height: 75px;
+    color: #726E5F;
+    padding: 5px;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 29px;
+}
+th:nth-child(1){
+    background: rgba(200, 148, 121, 0.6);
+}
+th:nth-child(2){
+    background: #E5D2CA;
+}
+th:nth-child(3){
+    background: rgba(255, 255, 255, 0.55);
+}
+td{
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    color: #FFF;
+    padding: 5px 0;
+}
+td:nth-child(1){
+    background: #C89479;
+}
+td:nth-child(2){
+    background: rgba(200, 148, 121, 0.6);
+}
+td:nth-child(3){
+    background: #E5D2CA;
+}
+/* QUALITY */
+.quality{
+    padding: 100px 0;
+    background: url(img/fon3.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.quality-content{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+.quality-content-top{
+    display: flex;
+    gap: 20px;
+}
+.quality-content-top-text{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+.quality-content-top-text div{
+    height: 290px;
+    border-left: 1px solid #C89479;
+}
+.quality-content-top-text img{
+    width: 303px;
+    border: 1px solid #C89479; 
+    border-radius: 50%;
+    position: relative;
+    top: -14px;
+}
+.quality-content-top-text p{
+    Font-style: Light;
+    Font-size: 16px;
+    Line-height: 20px;
+    max-width: 214px;
+    width: 100%;
+    padding-left: 16px;
+}
+.quality-content-bot{
+    display: flex;
+    justify-content: space-between;
+}
+.quality-content-order{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    max-width: 356px;
+    width: 100%;
+}
+.quality-content-order .order{
+    max-width: 350px;
+    font-size: 16px;
+}
+.quality-content-order .order-Wildberies{
+    padding: 31px 45px;
+}
+.quality-content-order .order-OZON{
+    padding: 31px 60px;
+}
+.quality-content-text{
+    max-width: 840px;
+    width: 100%;
+}
+.quality-content-text h4{
+    Font-size: 24px;
+    Line-height: 29px;
+    padding-bottom: 20px;
+}
+.quality-content-text p{
+    Font-style: 400;
+    Font-size: 20px;
+    Line-height: 24px;
+}
+/* SAVE */
+.save{
+    max-width: 1920px;
+    width: 100%;
+    background: #ECECEC;
+}
+.save-content{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.save-content-left{
+    padding: 100px 0 150px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.save-content-left-top{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+.save-content-left-bot{
+    max-width: 356px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    align-items: center;
+}
+.save-content-left-bot .order{
+    max-width: 350px;
+    font-size: 16px;
+}
+.save-content-left-bot  .order-Wildberies{
+    padding: 31px 45px;
+}
+.save-content-left-bot .order-OZON{
+    padding: 31px 60px;
+}
+.save-content-left-top p:nth-child(1){
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+}
+/* prozrachnost in save-content-left-top */
+.translucent{
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 26px;
+}
+.save-content-left.p{
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+}
+/* FOOTER */
+footer{
+    max-width: 1920px;
+    width: 100%;
+    margin: 0 auto;
+    background: #ECECEC;
+}
+.footer-left{
+    display: flex;
+    align-items: center;
+    gap: 76px;
+}
+.footer-left p{
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 29px;
+    color: #8C8C8C;
+}
+.icon{
+    width: 85px;
+    height: 85;
+}
+.logo{
+    padding-right: 25px;
+}
+.arrow{
+    padding-right: 68px;
+}
+.social-icon{
+    display: flex;
+    align-items: center;
+    gap: 18px;
+}
+.footer-right{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-end;
+    gap: 5px;
+}
+.footer-content{
+    display: flex;
+}
+.footer-right h3{
+    padding: 0 0 50px 26px;
+}
+.logomini{
+    display: none;
+}
+.footer-right-adaptive{
+    display: flex;
+}
+@media (max-width:1200px) {
+    .quality-content-top {
+        justify-content: center;
+        overflow: auto;
+    }
+    .cards-row {
+        justify-content: center;
+        overflow: auto;
+    }
+    /* footer */
+    .footer-right {
+        flex-direction: row-reverse;
+    }
+    .footer-right h3 {
+        padding: 0 0 0px 5px;
+    }
+    .footer-left {
+        gap: 30px;
+    }
+    .footer-right {
+        flex-direction: row-reverse;
+        justify-content: center;
+        gap: 5px;
+        align-items: center;
+    }
+}
+@media (max-width:1024px) {
+    
+    .save-content {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    /* FOOTER */
+    .social-icon {
+        gap: 0px;
+    }
+    .logo {
+        padding-right: 5px;
+    }
+    .arrow {
+        padding-right: 0;
+    }
+    .footer-right-adaptive{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+@media (max-width:764px){
+    .header{
+       
+        padding: 100px 0 585px;
+    }
+    .slide, .slider{
+        display: none;
+    }
+    .size-chart-content {
+        flex-direction: column;
+        align-items: center;
+    }
+    .quality-content-text{
+        display: none;
+    }
+    .quality-content-bot {
+        justify-content: center;
+    }
+    .save{
+        display: none;
+    }
+    /* footer */
+    footer{
+        height: 139px;
+    }
+    .logo{
+        display: none;
+    }
+    .logomini{
+        display: block;
+    }
+    .icon{
+        width: 58px;
+    }
+    .arrow{
+        height: 51px;
+    }
+    .footer-content {
+        gap: 20px;
+        justify-content: center;
+    }
+    .footer-left{
+        flex-direction: column;
+        gap: 10px;
+    }
+    .footer-left p{
+        Font-size: 8px;
+        Line-height: 10px;
+    }
+    .footer-right h3{
+        Font-size: 10px;
+        Line-height: 12px;
+    }
+    .footer-right-adaptive {
+        gap: 10px;
+    }
+}
+@media (max-width:480px){
+    .header{
+        background: url(img/footfon.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 25px 20px 50px 20px;
+    }
+    h1{
+        Font-size: 12px;
+        Line-height: 15px;
+    }
+    .heading-content{
+        Font-size: 10px;
+        Line-height: 12px;
+    }
+    a{
+        font-size: 6px;
+    }
+    .order{
+        max-width: 130px;
+    }
+    .order-offers{
+        display: flex;
+        flex-direction: column;
+        gap: 4px;
+    }
+    .top .order-Wildberies {
+        margin: 300px 0 0;
+    }
+    .order-Wildberies {
+        padding: 10px 26px;
+    }
+    .order-OZON{
+        padding: 10px 20px;
+    }
+    .top{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    h4, p{
+        Font-size: 10px;
+        Line-height: 12px;
+    }
+    .cards{
+        padding: 30px 0;
+    }
+    .card{
+        width: 150px;
+        
+    }
+    .cards-row {
+        padding-bottom: 25px;
+        gap: 20px;
+    }
+    .card-content {
+        gap: 10px;
+    }
+    .size-chart {
+        padding: 30px 0;
+    }
+    h2{
+        Font-size: 12px;
+        Line-height: 15px;
+    }
+    th {
+        width: 90px;
+        height: 30px;
+        padding: 5px;
+        font-size: 10px;
+        line-height: 14px;
+    }
+    td {
+        font-size: 12px;
+        line-height: 16px;
+        padding: 1px 0;
+    }
+    .size-chart-content-right {
+        padding: 20px;
+        gap: 20px;
+        background: url(img/fon2.png);
+        background-repeat: no-repeat;
+        background-position: top -30px left -70px;
+    }
+    li{
+        Font-size: 12px;
+        Line-height: 15px;
+    }
+    .size-chart-content-right .social-icon .icon {
+        width: 60px;
+    }
+    .quality{
+        padding: 0 0 30px;
+    }
+    .quality-content-top-text p {
+        Font-size: 7px;
+        Line-height: 9px;
+        max-width: 90px;
+        padding-left: 6px;
+    }
+    .quality-content-top-text img {
+        width: 128px;
+        top: -10px;
+    }
+    .quality-content-top-text div {
+        height: 126px;
+    }
+    .quality-content-order {
+        align-items: center;
+        gap: 15px;
+    }
+    .quality-content-order .order {
+        max-width: 276px;
+        font-size: 12px;
+    }
+    .quality-content-order .order-Wildberies {
+        padding: 24px 30px;
+    }
+    .quality-content-order .order-OZON {
+        padding: 24px 30px;
+    }
+}
+   
