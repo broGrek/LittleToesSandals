@@ -381,11 +381,9 @@ footer{
 }
 @media (max-width:1200px) {
     .quality-content-top {
-        justify-content: center;
         overflow: auto;
     }
     .cards-row {
-        justify-content: center;
         overflow: auto;
     }
     /* footer */
